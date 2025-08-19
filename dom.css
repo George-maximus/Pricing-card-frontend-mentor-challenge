@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(169, 156, 187, 0.357);
+    color: #82ab7d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 100%;
+}
+
+p {
+    color: #6a6b4e;
+}
+
+.attribution {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0.9rem;
+    background-color: #82ab7d;
+    padding: 10px;
+    border-radius: 15px;
+    color: whitesmoke;
+    box-shadow: 1px 2px 5px 1px rgba(255,255,255, 0.2);
+ }
+
+ a {
+    color: #692475;
+ }
+
+ a:hover {
+    opacity: 0.5;
+ }
+
+ .content {
+    width: 65%;
+    padding-left: 40px;
+    padding-right: 30px;
+ }
+
+ .content p {
+    max-width: 80%;
+ }
+
+ .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30%;
+    padding-right: 30px;
+    border-left: 5px double #6a6b4e;
+    height: 85vh;
+
+ }
+button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border: 2px solid #6a6b4e;
+    background: transparent;
+    color: #6a6b4e;
+    border-radius: 17px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #82ab7d;
+
+}
+
+.reveal-btn {
+    border: none;
+    text-decoration: underline;
+    margin: 5;
+
+}
+
+.reveal-btn:hover {
+    color: #6a6b4e;
+    background-color: transparent;
+}
